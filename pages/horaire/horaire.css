@@ -1,0 +1,59 @@
+main{
+    margin-top: 70px;
+}
+
+/* /********************************************            Première section   *************************************/
+.info{
+    display: flex;
+    float: left;
+    margin: 10px;
+    width: 100%;
+}
+.titre{
+    background-color: rgb(159, 241, 176);
+    text-align: center;
+    padding: 50px;
+}
+.paragraphe{
+    background-color: rgb(34, 32, 32);
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+}
+/**************************************    Tableau      *********************************************/ 
+
+table{
+    width: calc(100% - 40px );
+    margin-left: 20px ;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    box-shadow: 0px 15px 60px rgb(111, 108, 108);
+}
+
+caption{
+    font-size: 50px;
+    border: 5px double black;
+}
+td , th{
+    border: 1px solid black;
+    height: 30px;
+    padding: 5px;
+}
+
+th{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.collation{
+     color: red;
+}
+
+.repas{
+    color: green;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title> Mon site </title>
+        <link rel="stylesheet" href="../../style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="corbeil.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    Bienvenue <br>
+                    au restaurant
+                </div>
+                
+                <div class="toggle">
+                    <i class="fa-solid fa-bars ouvrir"></i>
+                    <i class="fa-solid fa-xmark fermer"></i>
+                </div>
+
+                <ul class="menu">
+                    <div class="imgFont"></div>
+                    <li style=" top: 25%; left: 20%;"> 
+                        <a href="../home/home.html" >  
+                            <img src="../../images/acceil.png" alt="" >  
+                            <h3> Home    </h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 25%; right: 20%;"> 
+                        <a href="../resto/resto.html"> 
+                            <img src="../../images/resto.png" alt=""  > 
+                            <h3> O'Resto </h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 50%; left: 20%;" > 
+                        <a href="../dessert/dessert.html"> 
+                            <img src="../../images/dessert.png" alt=""> 
+                            <h3> Désserts</h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 50%; right: 20%;"> 
+                        <a href="../boissons/boissons.html">
+                            <img src="../../images/Boisson.png" alt=""> 
+                            <h3> Boissons</h3> 
+                        </a> 
+                    </li>
+                    <li style="  top: 75%; left: 20%;"> 
+                        <a href="../horaire/horaire.html"> 
+                            <img src="../../images/agenda.png" alt="" > 
+                            <h3> Horaire </h3> 
+                        </a> 
+                    </li>
+                </ul>
+
+                <div class="panier" >
+                    <a href="corbeil.html"><i class="fa-solid fa-basket-shopping" ></a></i></a>
+                    <input class="nombre" type="text" value="0" style="font-size: 15px; left: -30px; bottom: 25px; padding: 0px; text-align: center ; position: relative; border-radius: 100% 100% 100% 100% ; width: 25px; height: 25px; background-color: rgba(0, 0, 0, 0.5); color: white;" readonly>
+                </div>
+
+            </nav>
+        </header>
+        <main>
+            <table class="table">
+                <thead>
+                    <tr><th>Article</th><th>Quantité</th><th>Prix unitaire</th><th>Coût</th></tr>
+                </thead>
+                <tbody id="cart-tablebody">
+                    <tr class="vide"> <td colspan="4"> Votre panier est vide <br> :(</td></tr>
+                    <!--
+                    <tr> 
+                        <td><div><img src="../boissons/images/cristalline.jpg" alt=""> </div> <div> <P class="name"> Cristaline </P> </div></td> 
+                        <td><input type="number" min="1" step="1" class="qty" value="1"> <a href="" class="sup"> Supprimer</a> </td> 
+                        <td class="prix"> 0.60 € </td> 
+                        <td class="soustotal"> 0.60 € </td> 
+                    </tr>
+                    La structre d'une ligne de produit créée dans e panier par la feuille corbeil.js
+                    -->
+                </tbody>
+            </table>
+            
+            <p>Somme total : <span class="subtotal"> 0 </span> €</p>
+        </main>
+        <footer>
+            <ul>
+                <li> Contact :
+                    <ul> 06 05  93 63 83 <br> 
+                         franckkodjo@hotmail.com
+                    </ul>
+                </li>
+                <li> Adresse :
+                    <ul>
+                        1 Rue de la Croix de Lorraine, 57685 Augny 
+                    </ul>
+                </li>
+                <li> @Copyright : Tout droits réservés</li>
+            </ul>
+        </footer>
+        <script src="../../script.js"></script>
+        <script src="corbeil.js"></script>
+    </body>
+</html>

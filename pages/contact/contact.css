@@ -1,0 +1,108 @@
+.formulaire{
+    display: block;
+    box-shadow: 1px 1px 20px 1px;
+    height: 85%;
+    width: 64%;
+    margin: 10% 18% 5% 18%;
+    padding: 20px;
+    color: rgb(90, 86, 86);
+}
+
+.formulaire p{
+    font-size: 30px;
+    color: rgb(193, 7, 7);
+    margin-bottom: 10px;
+}
+
+form{
+    margin: 30px 0px 0px 0px; 
+    font-size: 15px;
+}
+
+.ligne1 , .ligne2{
+    display: flex; 
+    justify-content:center;
+}
+
+.civilite{
+    width: 10%; 
+    margin: 10px 10px 10px 0px;
+}
+
+.prenom{
+    width: 40%; 
+    margin: 10px 10px 10px 100px;
+}
+
+.prenom input{
+    width: 100%; 
+    height: 35px ; 
+    text-align: center;  
+    border: 1px solid black ;
+}
+
+.civilite select{
+    border: 1px solid black ;
+    width: 100px; 
+    height: 35px ; 
+    text-align: center;
+}
+
+.nom{
+    width: 40% ; 
+    margin: 10px 10px 10px 100px;
+}
+
+.nom input{
+    width: 70%; height: 35px ; 
+    text-align: center;  
+    border: 1px solid black ;
+}
+
+.ligne2 section{
+    width: calc(100%/4); 
+    margin: 10px 10px 10px 0px;
+}
+
+.statut{
+    width: 50%; 
+    margin: 10px 10px 20px 0px
+}
+
+.ligne2 section input , .statut select{
+    width: 80%; 
+    height: 35px ; 
+    text-align: center;  
+    border: 1px solid black ;
+}
+
+.objet{
+    width: calc(100% - 20px) ; 
+    margin: 10px 10px 20px 0px;
+}
+
+.objet input{
+    width: 40%; 
+    height: 35px ; 
+    text-align: center;  
+    border: 1px solid black ;
+}
+
+textarea{
+    height: 150px; 
+    width: calc(100% - 20px); 
+    margin-bottom: 30px;  
+    border: 1px solid black ;
+}
+
+.envoyer input{
+    width: 30%; 
+    height: 35px ; 
+    text-align: center; 
+    background-color:rgb(220, 239, 98); 
+    color: black; 
+    border: 0px;
+}
+input , textarea , select{
+    background-color: rgba(231, 231, 231, 0.362);
+}

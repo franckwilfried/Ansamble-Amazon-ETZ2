@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title> Mon site </title>
+        <link rel="stylesheet" href="../../../../style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="confiserie.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    Bienvenue <br>
+                    au restaurant
+                </div>
+                
+                <div class="toggle">
+                    <i class="fa-solid fa-bars ouvrir"></i>
+                    <i class="fa-solid fa-xmark fermer"></i>
+                </div>
+
+                <ul class="menu">
+                    <div class="imgFont"></div>
+                    <li style=" top: 25%; left: 20%;"> 
+                        <a href="../../../home/home.html" >  
+                            <img src="../../../../images/acceil.png" alt="" >  
+                            <h3> Home    </h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 25%; right: 20%;"> 
+                        <a href="../../resto.html"> 
+                            <img src="../../../../images/resto.png" alt=""  > 
+                            <h3 style="color:rgb(223, 93, 17); "> O'Resto </h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 50%; left: 20%;" > 
+                        <a href="../../../dessert/dessert.html"> 
+                            <img src="../../../../images/dessert.png" alt=""> 
+                            <h3> Désserts</h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 50%; right: 20%;"> 
+                        <a href="../../../boissons/boissons.html">
+                            <img src="../../../../images/Boisson.png" alt=""> 
+                            <h3 > Boissons</h3>
+                        </a> 
+                    </li>
+                    <li style=" display: flex; flex-direction: column ; position: absolute ; top: 75%; left: 20%;"> 
+                        <a href="../../../horaire/horaire.html"> 
+                            <img src="../../../../images/agenda.png" alt="" > 
+                            <h3> Horaire </h3> 
+                        </a> 
+                    </li>
+                </ul>
+                <div class="panier" >
+                    <a href="../../../corbeil/corbeil.html"><i class="fa-solid fa-basket-shopping" ></a></i></a>
+                    <input class="nombre" type="text" value="" readonly>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/twix.png" alt="">
+                        <div class="nom_prod"> Twix </div>
+                        <div class="prix"> <p> 0,80 € </p> </div>
+                        <button class="ajouter" id="twix"> AJOUTER </button>
+                    </td> 
+                    <td>
+                        <img src="images/sundy.png" alt="">
+                        <div class="nom_prod"> Sundy </div>
+                        <div class="prix"> <p> 8,80 €  </p> </div>
+                        <button class="ajouter" id="sundy" > AJOUTER  </button>
+                    </td>
+                    <td>
+                        <img src="images/snickers.png" alt="">
+                        <div class="nom_prod"> Snickers </div>
+                        <div class="prix"> <p> 0,80 € </p> </div>
+                        <button class="ajouter" id="snickers"> AJOUTER  </button>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/nuts.png" alt="">
+                        <div class="nom_prod"> Nuts </div>
+                        <div class="prix"> <p> 0,80 € </p> </div>
+                        <button class="ajouter" id="nuts"> AJOUTER  </button>
+                    </td> 
+                    <td>
+                        <img src="images/nougatti.png" alt="">
+                        <div class="nom_prod"> Nougatti </div>
+                        <div class="prix"> <p> 0,80 € </p> </div>
+                        <button class="ajouter" id="nougatti"> AJOUTER  </button>
+                    </td>
+                    <td>
+                        <img src="images/mars.png" alt="">
+                        <div class="nom_prod">Mars</div>
+                        <div class="prix"> <p> 0,80 € </p></div>
+                        <button class="ajouter" id="mars"> AJOUTER  </button>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/m&m.png" alt="">
+                        <div class="nom_prod">M&M</div>
+                        <div class="prix"><p> 1,60 €</p></div>
+                        <button class="ajouter" id="m_and_m"> AJOUTER  </button>
+                    </td>
+                    <td>
+                        <img src="images/kitkat.png" alt="">
+                        <div class="nom_prod"> Kitkat </div>
+                        <div class="prix"><p> 0,80 € </p></div>
+                        <button class="ajouter" id="kitkat"> AJOUTER  </button>
+                    </td>
+                    <td>
+                        <img src="images/kinder.png" alt="">
+                        <div class="nom_prod"> Kinder</div>
+                        <div class="prix"><p>1,12 €</p></div>
+                        <button class="ajouter" id="kinder"> AJOUTER  </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/haribo.png" alt="">
+                        <div class="nom_prod"> Haribo </div>
+                        <div class="prix"><p>1,50 €</p></div>
+                        <button class="ajouter" id="haribo"> AJOUTER  </button>
+                    </td>
+                    <td>
+                        <img src="images/freedent.png" alt="">
+                        <div class="nom_prod"> Freedent</div>
+                        <div class="prix"><p> 1,10 €</p></div>
+                        <button class="ajouter" id="freedent"> AJOUTER  </button>
+                    </td>
+                    <td>
+                        <img src="images/crunch.png" alt="">
+                        <div class="nom_prod"> Crunch</div>
+                        <div class="prix"><p>0,80 €</p></div>
+                        <button class="ajouter" id="crunch"> AJOUTER  </button>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/cote_dor.png" alt="">
+                        <div class="nom_prod"> Côte d'or </div>
+                        <div class="prix"><p>0,80 €</p></div>
+                        <button class="ajouter" id="cote_dor"> AJOUTER  </button>
+                    </td>
+                    <td>
+                        <img src="images/bounty.png" alt="">
+                        <div class="nom_prod"> Bounty</div>
+                        <div class="prix"><p>0,80 €</p></div>
+                        <button class="ajouter" id="bounty"> AJOUTER  </button>
+                    </td>
+                    <td>
+                        
+                    </td> 
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <form name="formulaire" enctype="text/plain" method="post" action="mailto:wilfiedfranck@gmail.com" accept-charset="utf-8" autocomplete="on">
+                <div class="renseignement">
+                    Nom : <input type="text" name="nom">
+                    Prenom : <input type="text" name="prenom">
+                    Maii : <input type="text" name="mail">
+                </div> 
+                <textarea name="commentaire" id="" cols="30" rows="10" placeholder="Commentaires , avis , suggestions , questions......"></textarea>
+                <input type="submit" value="Envoyer" >
+            </form>
+            <hr>
+            <ul>
+                <li> Contact :
+                    <ul> 06 05  93 63 83 <br> 
+                         franckkodjo@hotmail.com
+                    </ul>
+                </li>
+                <li> Adresse :
+                    <ul>
+                        1 Rue de la Croix de Lorraine, 57685 Augny 
+                    </ul>
+                </li>
+                <li> @Copyright : Tout droits réservés</li>
+            </ul>
+        </footer>
+        <script src="../../../../script.js"></script>
+        <script src="confiserie.js"></script>
+    </body>
+</html>

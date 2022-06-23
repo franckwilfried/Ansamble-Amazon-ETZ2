@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0 px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    margin-top: 80px;
+    display: block;
+    height: calc(100% - 160px);
+}
+
+/******************** La banière ******************************/
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: #663c24;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    color: rgb(220, 239, 98);
+    font-size: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 20px;
+    z-index: 20;
+}
+
+.nombre{
+    font-size: 15px; 
+    left: -30px; 
+    bottom: 25px; 
+    padding: 0px; 
+    text-align: center ; 
+    position: relative; 
+    border-radius: 100% 100% 100% 100% ; 
+    width: 25px; 
+    height: 25px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+.toggle .ouvrir {
+    display: block;
+}
+
+.toggle .fermer {
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li{
+    display: flex; 
+    flex-direction: column ; 
+    position: absolute ;
+}
+.logo{
+    border-top: 3px dashed rgb(220, 239, 98);
+    border-bottom: 3px dashed rgb(220, 239, 98);
+    font-size: 25px;
+    padding-top: 3px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: 200px;
+    margin: 2px;
+    height: 90%;
+    left: 40%;
+}
+
+nav > .panier {
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+nav > .panier a{
+    color: rgb(220, 239, 98);
+}
+
+/******************************             La page de menu              **********************/
+nav > ul > .imgFont {
+    background-image: url(images/Logo.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 60% 60% 60% 60% ;
+    position: absolute;
+    left: 40%;
+    top: 15px;
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: #696767;
+ }
+
+nav ul li a img{
+    width: 120px;
+    height: 120px;
+    margin-left: 1px;
+}
+h3:hover{
+    color:rgb(223, 93, 17); 
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95);
+    flex-direction: column;
+    padding: 2rem;
+    list-style-type: none;
+    justify-content: space-around;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+}
+
+.menu li a {
+    font-size: 25px;
+    list-style-type: none;
+}
+
+/****************  Lorsqu'on clique sur la barre du menu et que la classe open est disponible    ******************************/
+
+.open .ouvrir{
+    display: none;
+}
+
+.open .fermer{
+    display: block;
+}
+    
+.open .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95);
+    flex-direction: column;
+    padding: 2rem;
+    list-style-type: none;
+    justify-content: space-around;
+    transform: translateX(0);
+}
+
+.open nav ul{
+    z-index: 20px;
+}
+
+/**********************      Pied de page  *************************************/
+
+footer{
+    padding-top: 10px;
+    background-color: #3f3228;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 80px;
+    width: 100%;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+}
+
+footer ul li{
+    display: block;
+    width: calc(100%/3);
+}
+
