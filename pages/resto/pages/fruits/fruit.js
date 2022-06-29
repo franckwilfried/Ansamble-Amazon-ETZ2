@@ -5,7 +5,7 @@ pomme.onclick = () => {
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("pomme" , JSON.stringify(pomme))
+ localStorage.setItem("Pomme" , JSON.stringify(pomme))
 }
 
 yaourt_nature.onclick = () => {
