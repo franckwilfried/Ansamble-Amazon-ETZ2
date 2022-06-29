@@ -1,6 +1,6 @@
 pomme.onclick = () => {
     const pomme = {
-        image:  "https://franckwilfried.github.io/Ansamble-Amazon-ETZ2/pages/resto/pages/fruits/images/pomme.png" ,
+        image:  "../resto/pages/fruits/images/pomme.png" ,
         nom: 'Pomme',
         prix: 0.80,
         quantité: 1,
