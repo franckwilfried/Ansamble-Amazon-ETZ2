@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title> Mon site </title>
+        <link rel="stylesheet" href="../../style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    Ansamble <br>
+                    restauration
+                </div>
+                
+                <div class="toggle">
+                    <i class="fa-solid fa-bars ouvrir"></i>
+                    <i class="fa-solid fa-xmark fermer"></i>
+                </div>
+
+                <ul class="menu">
+                    <div class="imgFont"></div>
+                    <li style=" top: 25%; left: 20%;"> 
+                        <a href="../home/home.html" >  
+                            <img src="../../images/acceil.png" alt="" >  
+                            <h3 style="color:rgb(223, 93, 17); " > Home    </h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 25%; right: 20%;"> 
+                        <a href="../resto/resto.html"> 
+                            <img src="../../images/resto.png" alt=""  > 
+                            <h3> O'Resto </h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 50%; left: 20%;" > 
+                        <a href="../dessert/dessert.html"> 
+                            <img src="../../images/dessert.png" alt=""> 
+                            <h3> Désserts</h3> 
+                        </a> 
+                    </li>
+                    <li style=" top: 50%; right: 20%;"> 
+                        <a href="../boissons/boissons.html">
+                            <img src="../../images/Boisson.png" alt=""> 
+                            <h3 > Boissons</h3> 
+                        </a> 
+                    </li>
+                    <li style=" display: flex; flex-direction: column ; position: absolute ; top: 75%; left: 20%;"> 
+                        <a href="../horaire/horaire.html"> 
+                            <img src="../../images/agenda.png" alt="" > 
+                            <h3> Horaire </h3> 
+                        </a> 
+                    </li>
+                </ul>
+                <div class="panier" >
+                    <a href="../corbeil/corbeil.html"><i class="fa-solid fa-basket-shopping" ></a></i></a>
+                    <input class="nombre" type="text" value="" readonly>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="formulaire">
+                <p> Merci :)</p>
+                Votre Message a été envoyé avec succèss !
+                
+                <form action="https://formsubmit.co/bd3b8c6cdd4d617468f499d614e3bd14" method="POST" > <!-- &cc=mailencopie -->
+                    
+                </form>
+            </div>
+        </main>
+        <script src="../../script.js"></script>
+        <script src="resto.js"></script>
+    </body>
+</html>
