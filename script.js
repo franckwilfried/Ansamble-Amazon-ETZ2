@@ -8,6 +8,8 @@ toggle.addEventListener
     }
 )
 
+
+
 document.querySelector(".nombre").value = localStorage.length;
 
 // Mise à jour du nombre affiché sur le panier quand on clic sur ajouter pour mettre un element dans le panier

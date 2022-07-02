@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="../../style.css">
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="job.css">
     </head>
     <body>
         <header>
@@ -60,71 +60,74 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <div class="formulaire">
-                <p> Contact</p>
-                Nos équipes sont à votre écoute
-                
-                <form action="https://formsubmit.co/bd3b8c6cdd4d617468f499d614e3bd14" method="POST" > <!-- &cc=mailencopie -->
-                    <!-- Debut des fonctionalités implémentées du site formsubmit-->
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_subject" value="Conctact Amazon ETZ2">
-                    <input type="hidden" name="_next" value="https://franckwilfried.github.io/Ansamble-Amazon-ETZ2/pages/contact/thank.html">
-                    <!--fin-->
-                    <div class="ligne1">
-                    
-                        <section class="civilite"> Civilité <br>
-                            <select name="Genre" id="">
-                                <option value="0"> Choisir </option>
-                                <option value="Homme"> Monsieur </option>
-                                <option value="Femme"> Madame </option>
-                            </select>
-                        </section>
+        <main class="principal">
+            <section class="job_one">
+                <i class="fa-solid fa-angle-left left_one"></i>
+                <div class="intitule">Equipier(ère) polyvalent(e)</div>
+                <div class="profil">
+                    Profil
+                    <ul>
+                        <li>Age entre 18 et 25 ans</li>
+                        <li>CAP cuisine</li>
+                        <li>Organiser et ponctuel</li>
+                    </ul>
+                </div>
+                <div class="mission">
+                    Missions
+                    <ul>   
+                        <li>Netoyage</li>
+                        <li>Service caisse</li>
+                        <li>Entretient du matériel</li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-angle-right right_one"></i>
+            </section>
+<!-- Ils seront implémentés en Javascript
 
-                        <section class="prenom" > Prenom <br>
-                        <input type="text" name="Prenom" ></section>
+            <section class="job_two">
+                <i class="fa-solid fa-angle-left left_two"></i>
+                <div class="intitule">Equipier(ère) polyvalent(e)</div>
+                <div class="profil">
+                    Profil
+                    <ul>
+                        <li>Age entre 18 et 25 ans</li>
+                        <li>CAP cuisine</li>
+                        <li>Organiser et ponctuel</li>
+                    </ul>
+                </div>
+                <div class="mission">
+                    Missions
+                    <ul>   
+                        <li>Netoyage</li>
+                        <li>Service caisse</li>
+                        <li>Entretient du matériel</li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-angle-right right_two"></i>
+            </section> 
 
-                        <section class="nom"> Nom <br>
-                        <input type="text" name="Nom"></section>
-
-                    </div>
-                    <div class="ligne2">
-
-                        <section class="postal"> Code postal <br>
-                        <input type="text" name="adresse"></section>
-
-                        <section> Ville <br>
-                        <input type="text" name="Ville"></section>
-
-                        <section> Email <br>
-                        <input type="email" name="Email_expediteur"></section>
-
-                        <section > Telephone <br>
-                        <input type="text" name="Telephone"></section>
-
-                    </div>
-                    
-                    <section class="statut" >Vous êtes <br>
-                        <select name="Statut" >
-                            <option value="0"> Choisir </option>
-                            <option value="Particulier"> Particulier </option>
-                            <option value="Professionnel"> Professionnel </option>
-                        </select>
-                    </section>
-                    
-                    <section class="objet"> Objet de votre message <br>
-                    <input type="text" name="Object"></section>
-
-                    <section class="message">
-                        Votre message <br>
-                        <textarea name="Message" id="" cols="6" rows="6"></textarea>
-                    </section>
-
-                    <section class="envoyer">
-                        <input type="submit" value="ENVOYER" name="">
-                    </section>
-                </form>
-            </div>
+            <section class="job_three">
+                <i class="fa-solid fa-angle-left left_three"></i>
+                <div class="intitule">Equipier(ère) polyvalent(e)</div>
+                <div class="profil">
+                    Profil
+                    <ul>
+                        <li>Age entre 18 et 25 ans</li>
+                        <li>CAP cuisine</li>
+                        <li>Organiser et ponctuel</li>
+                    </ul>
+                </div>
+                <div class="mission">
+                    Missions
+                    <ul>   
+                        <li>Netoyage</li>
+                        <li>Service caisse</li>
+                        <li>Entretient du matériel</li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-angle-right right_three"></i>
+            </section>
+-->
         </main>
         <footer>
             <ul>
@@ -142,6 +145,7 @@
             </ul>
         </footer>
         <script src="../../script.js"></script>
-        <script src="contact.js"></script>
+        <script src="job.js"></script>
+        <script src="jobDeux.js"></script>
     </body>
 </html>
