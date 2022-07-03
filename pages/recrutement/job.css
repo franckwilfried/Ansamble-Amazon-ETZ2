@@ -1,5 +1,7 @@
 main{
     background-color: RGBa(123, 125, 128 , 0.4);
+    height: 100%;
+    width: 100%;
     padding: 15% 15% 12% 15%;
 }
 
