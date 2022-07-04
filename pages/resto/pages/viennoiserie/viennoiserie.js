@@ -1,139 +1,139 @@
 torsade.onclick = () => {
     const torsade = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/torsade.png" ,
-        nom: 'torsade',
+        image:  "../resto/pages/viennoiserie/images/torsade.png" ,
+        nom: 'Torsade chocolat',
         prix: 1.10,
         quantité: 1,
     }
- localStorage.setItem("torsade" , JSON.stringify(torsade))
+ localStorage.setItem("Torsade chocolat" , JSON.stringify(torsade))
 }
 
 suisse.onclick = () => {
     const suisse = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/suisse.png" ,
-        nom: 'suisse',
+        image:  "../viennoiserie/images/suisse.png" ,
+        nom: 'Suisse chocolat',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("suisse" , JSON.stringify(suisse))
+ localStorage.setItem("Suisse chocolat" , JSON.stringify(suisse))
 }
 
 palmier.onclick = () => {
     const palmier = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/palmier.png" ,
-        nom: 'palmier',
+        image:  "../resto/pages/viennoiserie/images/palmier.png" ,
+        nom: 'Palmier gourmand',
         prix: 1.10,
         quantité: 1,
     }
- localStorage.setItem("palmier" , JSON.stringify(palmier))
+ localStorage.setItem("Palmier gourmand" , JSON.stringify(palmier))
 }
 
 muffin.onclick = () => {
     const muffin = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/muffin.png" ,
-        nom: 'muffin',
+        image:  "../resto/pages/viennoiserie/images/muffin.png" ,
+        nom: 'Muffin',
         prix: 1.10,
         quantité: 1,
     }
- localStorage.setItem("muffin" , JSON.stringify(muffin))
+ localStorage.setItem("Muffin" , JSON.stringify(muffin))
 }
 
 mabre.onclick = () => {
     const mabre = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/mabre.png" ,
-        nom: 'mabre',
+        image:  "../resto/pages/viennoiserie/images/mabre.png" ,
+        nom: 'Mabre',
         prix: 1.10,
         quantité: 1,
     }
- localStorage.setItem("mabre" , JSON.stringify(mabre))
+ localStorage.setItem("Mabre" , JSON.stringify(mabre))
 }
 
 jalousie.onclick = () => {
     const jalousie = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/jalousie.png" ,
-        nom: 'jalousie',
+        image:  "../resto/pages/viennoiserie/images/jalousie.png" ,
+        nom: 'Jalousie pomme',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("jalousie" , JSON.stringify(jalousie))
+ localStorage.setItem("Jalousie pomme" , JSON.stringify(jalousie))
 }
 
 escargot.onclick = () => {
     const escargot = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/escargot.png" ,
-        nom: 'escargot',
+        image:  "../resto/pages/viennoiserie/images/escargot.png" ,
+        nom: 'Pain au raisin',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("escargot" , JSON.stringify(escargot))
+ localStorage.setItem("Pain au raisin" , JSON.stringify(escargot))
 }
 
 croissant.onclick = () => {
     const croissant = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/croissant.png" ,
-        nom: 'croissant',
+        image:  "../resto/pages/viennoiserie/images/croissant.png" ,
+        nom: 'Croissant nature',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("croissant" , JSON.stringify(croissant))
+ localStorage.setItem("Croissant nature" , JSON.stringify(croissant))
 }
 
 cookie.onclick = () => {
     const cookie = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/cookie.png" ,
-        nom: 'cookie',
+        image:  "../resto/pages/viennoiserie/images/cookie.png" ,
+        nom: 'Cookie',
         prix: 1.10,
         quantité: 1,
     }
- localStorage.setItem("cookie" , JSON.stringify(cookie))
+ localStorage.setItem("Cookie" , JSON.stringify(cookie))
 }
 
 chocolatine.onclick = () => {
     const chocolatine = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/chocolatine.png" ,
-        nom: 'chocolatine',
+        image:  "../resto/pages/viennoiserie/images/chocolatine.png" ,
+        nom: 'Chocolatine',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("chocolatine" , JSON.stringify(chocolatine))
+ localStorage.setItem("Chocolatine" , JSON.stringify(chocolatine))
 }
 
 chausson.onclick = () => {
     const chausson = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/chausson.png" ,
-        nom: 'chausson',
+        image:  "../resto/pages/viennoiserie/images/chausson.png" ,
+        nom: 'Chausson pomme',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("chausson" , JSON.stringify(chausson))
+ localStorage.setItem("Chausson pomme" , JSON.stringify(chausson))
 }
 
 beignetchoco.onclick = () => {
     const beignetchoco = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/beignet.png" ,
-        nom: 'beignetchoco',
+        image:  "../resto/pages/viennoiserie/images/beignet.png" ,
+        nom: 'Beignet chocolat',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("beignetchoco" , JSON.stringify(beignetchoco))
+ localStorage.setItem("Beignet chocolat" , JSON.stringify(beignetchoco))
 }
 
 beignetfram.onclick = () => {
     const beignetfram = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/beignet_framboise.png" ,
-        nom: 'beignetfram',
+        image:  "../resto/pages/viennoiserie/images/beignet_framboise.png" ,
+        nom: 'Beignet framboise',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("beignetfram" , JSON.stringify(beignetfram))
+ localStorage.setItem("Beignet framboise" , JSON.stringify(beignetfram))
 }
 
 donnut.onclick = () => {
     const donnut = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/viennoiserie/images/doughnut.png" ,
-        nom: 'donnut',
+        image:  "../resto/pages/viennoiserie/images/doughnut.png" ,
+        nom: 'Donnut',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("donnut" , JSON.stringify(donnut))
+ localStorage.setItem("Donnut" , JSON.stringify(donnut))
 }

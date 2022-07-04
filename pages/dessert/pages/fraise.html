@@ -7,6 +7,10 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style>
+            nav > .logo{
+                padding-top: 15px;
+            }
+
             .article{
                 font-size: 20px;
                 text-align: center;
@@ -70,8 +74,7 @@
         <header>
             <nav>
                 <div class="logo">
-                    Bienvenue <br>
-                    au restaurant
+                    Desserts
                 </div>
                 
                 <div class="toggle">
@@ -140,16 +143,6 @@
             </table>
         </main>
         <footer>
-            <form name="formulaire" enctype="text/plain" method="post" action="mailto:wilfiedfranck@gmail.com" accept-charset="utf-8" autocomplete="on">
-                <div class="renseignement">
-                    Nom : <input type="text" name="nom">
-                    Prenom : <input type="text" name="prenom">
-                    Maii : <input type="text" name="mail">
-                </div> 
-                <textarea name="commentaire" id="" cols="30" rows="10" placeholder="Commentaires , avis , suggestions , questions......"></textarea>
-                <input type="submit" value="Envoyer" >
-            </form>
-            <hr>
             <ul>
                 <li> Contact :
                     <ul> 06 05  93 63 83 <br> 
@@ -167,12 +160,12 @@
         <script>
             tartefraise.onclick = () => {
                 const tartefraise = {
-                    image:  "file:///C:/Users/PC/Desktop/site/pages/dessert/images/tarte_fraise.jpg" ,
-                    nom: 'tartefraise',
+                    image:  "../dessert/images/tarte_fraise.jpg" ,
+                    nom: 'Tarte à la fraise',
                     prix: 1.20,
                     quantité: 1,
                 }
-                localStorage.setItem("tartefraise" , JSON.stringify(tartefraise))
+                localStorage.setItem("Tarte à la fraise" , JSON.stringify(tartefraise))
             }
         </script>
         <script src="../../../script.js"></script>

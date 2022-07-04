@@ -1,6 +1,6 @@
 ptitcabray.onclick = () => {
     const ptitcabray = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/ptitcabray.png" ,
+        image:  "../resto/pages/prod_lait/images/ptitcabray.png" ,
         nom: 'Ptit cabray',
         prix: 0.80,
         quantité: 1,
@@ -10,7 +10,7 @@ ptitcabray.onclick = () => {
 
 yaourt_nature.onclick = () => {
     const yaourt_nature = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/yaourt_nature.png" ,
+        image:  "../resto/pages/prod_lait/images/yaourt_nature.png" ,
         nom: 'Yaourt nature',
         prix: 0.30,
         quantité: 1,
@@ -20,7 +20,7 @@ yaourt_nature.onclick = () => {
 
 yaourt_fruit.onclick = () => {
     const yaourt_fruit = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/yaourt_fruit.png" ,
+        image:  "../resto/pages/prod_lait/images/yaourt_fruit.png" ,
         nom: 'Yaourt fruit',
         prix: 0.50,
         quantité: 1,
@@ -30,7 +30,7 @@ yaourt_fruit.onclick = () => {
 
 nova_creme_vanille.onclick = () => {
     const nova_creme_vanille = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/nova_creme_vanille.png" ,
+        image:  "../resto/pages/prod_lait/images/nova_creme_vanille.png" ,
         nom: 'Nova vanille',
         prix: 1.00,
         quantité: 1,
@@ -40,7 +40,7 @@ nova_creme_vanille.onclick = () => {
 
 nova_chocolat.onclick = () => {
     const nova_chocolat = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/nova_chocolat.png" ,
+        image:  "../resto/pages/prod_lait/images/nova_chocolat.png" ,
         nom: 'Nova chocolat',
         prix: 1.00,
         quantité: 1,
@@ -50,7 +50,7 @@ nova_chocolat.onclick = () => {
 
 light_free.onclick = () => {
     const light_free = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/light&free.png" ,
+        image:  "../resto/pages/prod_lait/images/light&free.png" ,
         nom: 'Light & free',
         prix: 0.50,
         quantité: 1,
@@ -60,7 +60,7 @@ light_free.onclick = () => {
 
 danone.onclick = () => {
     const danone = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/danone.png" ,
+        image:  "../resto/pages/prod_lait/images/danone.png" ,
         nom: 'Danone',
         prix: 0.50,
         quantité: 1,
@@ -70,7 +70,7 @@ danone.onclick = () => {
 
 compote.onclick = () => {
     const compote = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/compote.png" ,
+        image:  "../resto/pages/prod_lait/images/compote.png" ,
         nom: 'Charles & Alice',
         prix: 0.50,
         quantité: 1,
@@ -80,7 +80,7 @@ compote.onclick = () => {
 
 nova_caramel.onclick = () => {
     const nova_caramel = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/nova_caramel.png" ,
+        image:  "../resto/pages/prod_lait/images/nova_caramel.png" ,
         nom: 'Nova caramel',
         prix: 1.00,
         quantité: 1,

@@ -1,150 +1,150 @@
 cristaline.onclick = () => {
     const cristaline = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/cristalline.jpg " ,
-        nom: 'cristaline',
+        image:  "../boissons/images/cristalline.jpg " , /* l'utilsation des données se fais dans la page JS de corbeil d'où l'usage des .. en debut   **/
+        nom: 'Cristaline',
         prix: 0.60,
         quantité: 1,
     }
- localStorage.setItem("cristaline" , JSON.stringify(cristaline))
+ localStorage.setItem("Cristaline" , JSON.stringify(cristaline))
 }
 
 volvic.onclick = () => {
     const volv = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/volvic_citron.jpg" ,
-        nom: 'volvic',
+        image:  "../boissons/images/volvic_citron.jpg" ,
+        nom: 'Volvic citron',
         prix: 1.00,
         quantité: 1,
     }
- localStorage.setItem("volvic" , JSON.stringify(volv))
+ localStorage.setItem("Volvic citron" , JSON.stringify(volv))
 }
 
 carola.onclick = () => {
     const carola = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/carola_verte.jpg" ,
-        nom: 'carola',
+        image:  "../boissons/images/carola_verte.jpg" ,
+        nom: 'Carola',
         prix: 0.90,
         quantité: 1,
     }
- localStorage.setItem("carola" , JSON.stringify(carola))
+ localStorage.setItem("Carola" , JSON.stringify(carola))
 }
 
 orangina.onclick = () => {
     const orangina = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/orangina.jpg" ,
-        nom: 'orangina',
+        image:  "../boissons/images/orangina.jpg" ,
+        nom: 'Orangina',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("orangina" , JSON.stringify(orangina))
+ localStorage.setItem("Orangina" , JSON.stringify(orangina))
 }
 
 sprite.onclick = () => {
     const sprite = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/sprite.jpg" ,
-        nom: 'sprite',
+        image:  "../boissons/images/sprite.jpg" ,
+        nom: 'Sprite',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("sprite" , JSON.stringify(sprite))
+ localStorage.setItem("Sprite" , JSON.stringify(sprite))
 }
 
 smoothie.onclick = () => {
     const smoothie = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/smoothie.jpg" ,
-        nom: 'smoothie',
+        image:  "../boissons/images/smoothie.jpg" ,
+        nom: 'Smoothie',
         prix: 1.80,
         quantité: 1,
     }
- localStorage.setItem("smoothie" , JSON.stringify(smoothie))
+ localStorage.setItem("Smoothie" , JSON.stringify(smoothie))
 }
 
 cocacola33.onclick = () => {
     const cocacola33 = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/coca_33cl.png" ,
-        nom: 'cocacola33',
+        image:  "../boissons/images/coca_33cl.png" ,
+        nom: 'Coca cola 33cl',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("cocacola33" , JSON.stringify(cocacola33))
+ localStorage.setItem("Coca cola 33cl" , JSON.stringify(cocacola33))
 }
 
 cocacola50.onclick = () => {
     const cocacola50 = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/coca_50cl.jpg" ,
-        nom: 'cocacola50',
+        image:  "../boissons/images/coca_50cl.jpg" ,
+        nom: 'Coca cola 50cl',
         prix: 1.30,
         quantité: 1,
     }
- localStorage.setItem("cocacola50" , JSON.stringify(cocacola50))
+ localStorage.setItem("Coca cola 50cl" , JSON.stringify(cocacola50))
 }
 
 pepsi.onclick = () => {
     const pepsi = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/pepsi.png" ,
-        nom: 'pepsi',
+        image:  "../boissons/images/pepsi.png" ,
+        nom: 'Pepsi',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("pepsi" , JSON.stringify(pepsi))
+ localStorage.setItem("Pepsi" , JSON.stringify(pepsi))
 }
 
 multifruit.onclick = () => {
     const multifruit = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/minute_multi.png" ,
-        nom: 'multifruit',
+        image:  "../boissons/images/minute_multi.png" ,
+        nom: 'Minute maid',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("multifruit" , JSON.stringify(multifruit))
+ localStorage.setItem("Minute maid" , JSON.stringify(multifruit))
 }
 
 maidorange.onclick = () => {
     const maidorange = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/munite_orange.jfif" ,
-        nom: 'maidorange',
+        image:  "../boissons/images/munite_orange.jfif" ,
+        nom: 'Minute maid',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("maidorange" , JSON.stringify(maidorange))
+ localStorage.setItem("Minute maid" , JSON.stringify(maidorange))
 }
 
 maidpomme.onclick = () => {
     const maidpomme = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/minute_pomme.png" ,
-        nom: 'maidpomme',
+        image:  "../boissons/images/minute_pomme.png" ,
+        nom: 'Minute maid',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("maidpomme" , JSON.stringify(maidpomme))
+ localStorage.setItem("Minute maid" , JSON.stringify(maidpomme))
 }
 
 fuzetea.onclick = () => {
     const fuzetea = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/fuzetea.jpg" ,
-        nom: 'fuzetea',
+        image:  "../boissons/images/fuzetea.jpg" ,
+        nom: 'Fuzetea',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("fuzetea" , JSON.stringify(fuzetea))
+ localStorage.setItem("Fuzetea" , JSON.stringify(fuzetea))
 }
 
 redbull.onclick = () => {
     const redbull = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/redbull.png" ,
-        nom: 'redbull',
+        image:  "../boissons/images/redbull.png" ,
+        nom: 'Redbull',
         prix: 2.10,
         quantité: 1,
     }
- localStorage.setItem("redbull" , JSON.stringify(redbull))
+ localStorage.setItem("Redbull" , JSON.stringify(redbull))
 }
 
 sparking.onclick = () => {
     const sparking = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/boissons/images/pelegrino.png" ,
-        nom: 'sparking',
+        image:  "../boissons/images/pelegrino.png" ,
+        nom: 'Sparking',
         prix: 1.00,
         quantité: 1,
     }
- localStorage.setItem("sparking" , JSON.stringify(sparking))
+ localStorage.setItem("Sparking" , JSON.stringify(sparking))
 }
 

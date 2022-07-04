@@ -1,29 +1,29 @@
 sandwich_poulet.onclick = () => {
     const sandwich_poulet = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/sandwich/images/sandwich.png" ,
-        nom: 'sandwich_poulet',
+        image:  "../resto/pages/sandwich/images/sandwich.png" ,
+        nom: 'Sandwich au poulet',
         prix: 3.00,
         quantité: 1,
     }
-    localStorage.setItem("sandwich_poulet" , JSON.stringify(sandwich_poulet))
+    localStorage.setItem("Sandwich au poulet" , JSON.stringify(sandwich_poulet))
 }
 
 sandwich_jambon.onclick = () => {
     const sandwich_jambon = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/sandwich/images/sandwich.png" ,
-        nom: 'sandwich_jambon',
+        image:  "../resto/pages/sandwich/images/sandwich.png" ,
+        nom: 'Sandwich au jambon',
         prix: 2.40,
         quantité: 1,
     }
-    localStorage.setItem("sandwich_jambon" , JSON.stringify(sandwich_jambon))
+    localStorage.setItem("Sandwich au jambon" , JSON.stringify(sandwich_jambon))
 }
 
 sandwich_vege.onclick = () => {
     const sandwich_vege = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/sandwich/images/sandwich.png" ,
-        nom: 'sandwich_vege',
+        image:  "../resto/pages/sandwich/images/sandwich.png" ,
+        nom: 'Sandwich végétarien',
         prix: 2.50,
         quantité: 1,
     }
-    localStorage.setItem("sandwich_vege" , JSON.stringify(sandwich_vege))
+    localStorage.setItem("Sandwich végétarien" , JSON.stringify(sandwich_vege))
 }

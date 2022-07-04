@@ -1,66 +1,66 @@
 twix.onclick = () => {
     const twix = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/twix.png" ,
-        nom: 'twix',
+        image:  "../resto/pages/conficerie/images/twix.png" ,
+        nom: 'Twix',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("twix" , JSON.stringify(twix))
+ localStorage.setItem("Twix" , JSON.stringify(twix))
 }
 
 sundy.onclick = () => {
     const sundy = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/sundy.png" ,
-        nom: 'sundy',
+        image:  "../resto/pages/conficerie/images/sundy.png" ,
+        nom: 'Sundy',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("sundy" , JSON.stringify(sundy))
+ localStorage.setItem("Sundy" , JSON.stringify(sundy))
 }
 
 snickers.onclick = () => {
     const snickers = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/snickers.png" ,
-        nom: 'snickers',
+        image:  "../resto/pages/conficerie/images/snickers.png" ,
+        nom: 'Snickers',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("snickers" , JSON.stringify(snickers))
+ localStorage.setItem("Snickers" , JSON.stringify(snickers))
 }
 
 nuts.onclick = () => {
     const nuts = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/nuts.png" ,
-        nom: 'nuts',
+        image:  "../resto/pages/conficerie/images/nuts.png" ,
+        nom: 'Nuts',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("nuts" , JSON.stringify(nuts))
+ localStorage.setItem("Nuts" , JSON.stringify(nuts))
 }
 
 nougatti.onclick = () => {
     const nougatti = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/nougatti.png" ,
-        nom: 'nougatti',
+        image:  "../resto/pages/conficerie/images/nougatti.png" ,
+        nom: 'Nougatti',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("nougatti" , JSON.stringify(nougatti))
+ localStorage.setItem("Nougatti" , JSON.stringify(nougatti))
 }
 
 mars.onclick = () => {
     const mars = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/mars.png" ,
-        nom: 'mars',
+        image:  "../resto/pages/conficerie/images/mars.png" ,
+        nom: 'Mars',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("mars" , JSON.stringify(mars))
+ localStorage.setItem("Mars" , JSON.stringify(mars))
 }
 
 m_and_m.onclick = () => {
     const m_and_m = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/m&m.png" ,
+        image:  "../resto/pages/conficerie/images/m&m.png" ,
         nom: 'M&M',
         prix: 1.60,
         quantité: 1,
@@ -70,37 +70,37 @@ m_and_m.onclick = () => {
 
 kitkat.onclick = () => {
     const kitkat = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/kitkat.png" ,
-        nom: 'kitkat',
+        image:  "../resto/pages/conficerie/images/kitkat.png" ,
+        nom: 'Kitkat',
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("kitkat" , JSON.stringify(kitkat))
+ localStorage.setItem("Kitkat" , JSON.stringify(kitkat))
 }
 
 kinder.onclick = () => {
     const kinder = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/kinder.png" ,
-        nom: 'kinder',
+        image:  "../resto/pages/conficerie/images/kinder.png" ,
+        nom: 'Kinder',
         prix: 1.12,
         quantité: 1,
     }
- localStorage.setItem("kinder" , JSON.stringify(kinder))
+ localStorage.setItem("Kinder" , JSON.stringify(kinder))
 }
 
 haribo.onclick = () => {
     const haribo = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/haribo.png" ,
-        nom: 'haribo',
+        image:  "../resto/pages/conficerie/images/haribo.png" ,
+        nom: 'Haribo',
         prix: 1.50,
         quantité: 1,
     }
- localStorage.setItem("haribo" , JSON.stringify(haribo))
+ localStorage.setItem("Haribo" , JSON.stringify(haribo))
 }
 
 freedent.onclick = () => {
     const freedent = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/freedent.png" ,
+        image:  "../resto/pages/conficerie/images/freedent.png" ,
         nom: 'Freedent',
         prix: 1.10,
         quantité: 1,
@@ -110,7 +110,7 @@ freedent.onclick = () => {
 
 crunch.onclick = () => {
     const crunch = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/crunch.png" ,
+        image:  "../resto/pages/conficerie/images/crunch.png" ,
         nom: 'Crunch',
         prix: 0.80,
         quantité: 1,
@@ -120,17 +120,17 @@ crunch.onclick = () => {
 
 cote_dor.onclick = () => {
     const cote_dor = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/cote_dor.png" ,
-        nom: 'Côte d_or ',
+        image:  "../resto/pages/conficerie/images/cote_dor.png" ,
+        nom: "Côte d'or ",
         prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("Côte d_or" , JSON.stringify(cote_dor))
+ localStorage.setItem("Côte d'or" , JSON.stringify(cote_dor))
 }
 
 bounty.onclick = () => {
     const bounty = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/conficerie/images/bounty.png" ,
+        image:  "../resto/pages/conficerie/images/bounty.png" ,
         nom: 'Bounty',
         prix: 0.80,
         quantité: 1,

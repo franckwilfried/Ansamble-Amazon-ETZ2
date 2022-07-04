@@ -8,82 +8,32 @@ pomme.onclick = () => {
  localStorage.setItem("Pomme" , JSON.stringify(pomme))
 }
 
-yaourt_nature.onclick = () => {
-    const yaourt_nature = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/yaourt_nature.png" ,
-        nom: 'Yaourt nature',
-        prix: 0.30,
+banane.onclick = () => {
+    const banane = {
+        image:  "../resto/pages/fruits/images/banane.png",
+        nom: 'Banane',
+        prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("Yaourt nature" , JSON.stringify(yaourt_nature))
+ localStorage.setItem("Banane" , JSON.stringify(banane))
 }
 
-yaourt_fruit.onclick = () => {
-    const yaourt_fruit = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/yaourt_fruit.png" ,
-        nom: 'Yaourt fruit',
-        prix: 0.50,
+orange.onclick = () => {
+    const orange = {
+        image:  "../resto/pages/fruits/images/orange.png" ,
+        nom: 'Orange',
+        prix: 0.80,
         quantité: 1,
     }
- localStorage.setItem("Yaourt fruit" , JSON.stringify(yaourt_fruit))
+ localStorage.setItem("Orange" , JSON.stringify(orange))
 }
 
-nova_creme_vanille.onclick = () => {
-    const nova_creme_vanille = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/nova_creme_vanille.png" ,
-        nom: 'Nova vanille',
-        prix: 1.00,
+poire.onclick = () => {
+    const poire = {
+        image:  "../resto/pages/fruits/images/poire.png" ,
+        nom: 'Poire',
+        prix: 0.80,
         quantité: 1,
     }
-    localStorage.setItem("Nova vanille" , JSON.stringify(nova_creme_vanille))
-}
-
-nova_chocolat.onclick = () => {
-    const nova_chocolat = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/nova_chocolat.png" ,
-        nom: 'Nova chocolat',
-        prix: 1.00,
-        quantité: 1,
-    }
- localStorage.setItem("Nova chocolat" , JSON.stringify(nova_chocolat))
-}
-
-light_free.onclick = () => {
-    const light_free = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/light&free.png" ,
-        nom: 'Light & free',
-        prix: 0.50,
-        quantité: 1,
-    }
- localStorage.setItem("Light & free" , JSON.stringify(light_free))
-}
-
-danone.onclick = () => {
-    const danone = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/danone.png" ,
-        nom: 'Danone',
-        prix: 0.50,
-        quantité: 1,
-    }
- localStorage.setItem("Danone" , JSON.stringify(danone))
-}
-
-compote.onclick = () => {
-    const compote = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/compote.png" ,
-        nom: 'Charles & Alice',
-        prix: 0.50,
-        quantité: 1,
-    }
- localStorage.setItem("Charles & Alice" , JSON.stringify(compote))
-}
-
-nova_caramel.onclick = () => {
-    const nova_caramel = {
-        image:  "file:///C:/Users/PC/Desktop/site/pages/resto/pages/prod_lait/images/nova_caramel.png" ,
-        nom: 'Nova caramel',
-        prix: 1.00,
-        quantité: 1,
-    }
- localStorage.setItem("Nova caramel" , JSON.stringify(nova_caramel))
+ localStorage.setItem("Poire" , JSON.stringify(poire))
 }
