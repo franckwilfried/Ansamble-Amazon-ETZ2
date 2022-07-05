@@ -1,4 +1,4 @@
-@media all and (max-width: 1535px){
+@media all and (max-width: 1000px){
     body > main{
         display: none;
     }
