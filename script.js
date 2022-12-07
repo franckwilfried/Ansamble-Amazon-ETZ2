@@ -1,3 +1,5 @@
+//Animation boutn d'ouverture du menu
+
 let toggle = document.querySelector('.toggle');
 let body = document.querySelector('body');
 
