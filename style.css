@@ -1,8 +1,14 @@
-/* @media all and (max-width: 1000px){
+@media all and (max-width: 1370px){
+
     body > main{
-        display: none;
+        display: block;
+        box-sizing: border-box;
+        min-width: 1370px;
+        height: 100%;
     }
-} */
+
+
+}
 
 * {
     margin: 0px;
