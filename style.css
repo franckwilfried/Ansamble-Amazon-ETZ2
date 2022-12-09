@@ -1,16 +1,13 @@
 @media all and (max-width: 1370px){
 
-    body > main{
-        display: block;
-        min-width: 1370px;
-        max-height: 1750px;
-    }
-
-    footer{
+    body {
         display: block;
         min-width: 1370px;
     }
-}
+    main{
+        padding-bottom: calc(100% - 80px);
+    }
+} 
 
 * {
     margin: 0px;
