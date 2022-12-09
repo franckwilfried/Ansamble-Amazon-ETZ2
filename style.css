@@ -4,11 +4,39 @@
         display: block;
         min-width: 1370px;
     }
+    
     main{
         padding-bottom: calc(100% - 80px);
     }
+
+    html > body > header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 150px;
+        width: 100%;
+        color: white;
+        background-color: #663c24;
+    }
+
+    div.toggle {
+        font-size: 6rem;
+    }
+
+    div.logo{
+        font-size: 40px;
+        padding-top: 10px;
+        width: 400px;
+        left: 35%;
+    }
+
+    html > body > header > nav > div.panier {
+        font-size: 6rem;
+        margin-right: 10px;
+    }
 } 
 
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////:       */
 * {
     margin: 0px;
     padding: 0 px;
