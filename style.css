@@ -6,7 +6,8 @@
     }
     
     main{
-        padding-bottom: calc(100% - 80px);
+        top: 150px;
+        padding-bottom: calc(100% - 300px);
     }
 
     html > body > header{
@@ -32,7 +33,17 @@
 
     html > body > header > nav > div.panier {
         font-size: 6rem;
-        margin-right: 10px;
+    }
+
+    main > .banner2{
+        font-size: 40px;
+        height: 150px;
+        margin-top: 150px;
+    }
+
+    footer{
+        height: 150px;
+        font-size: 25px;
     }
 } 
 
@@ -217,7 +228,6 @@ footer{
     background-color: #3f3228;
     color: rgb(255, 255, 255);
     display: block;
-    height: 80px;
     width: 100%;
 }
 
