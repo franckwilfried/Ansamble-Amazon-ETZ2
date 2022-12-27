@@ -34,10 +34,13 @@
     html > body > header > nav > div.panier {
         font-size: 6rem;
     }
+    ul.banner2{
+        height: 130px;
+        padding-top: 30px;
+    }
 
-    main > .banner2{
+    ul.banner2 > li > a:link{
         font-size: 40px;
-        height: 150px;
     }
 
     footer{
