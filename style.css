@@ -34,9 +34,18 @@
     html > body > header > nav > div.panier {
         font-size: 6rem;
     }
+
+    input.nombre{
+        font-size: 40px; 
+        left: -50px; 
+        bottom: 50px;
+        width: 60px;
+        height: 60px;
+    }
+
     ul.banner2{
         height: 130px;
-        padding-top: 30px;
+        padding-top: 50px;
     }
 
     ul.banner2 > li > a:link{
