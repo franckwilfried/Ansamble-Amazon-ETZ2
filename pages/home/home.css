@@ -1,4 +1,21 @@
+@media all and (max-width: 1370px){
+    .presentation p{
+        font-size: 40px;
+    }
 
+    .presentation h2 , h3{
+        font-size: 50px;
+    }
+    
+    h3.amazon , h3.elior{
+        width: 550px;
+        height: 150px;
+        color: white;
+        margin: 20px;
+        padding: 20px;
+    }
+} 
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .banner2{
     list-style-type: none;
     font-size: 20px;
