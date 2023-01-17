@@ -23,6 +23,15 @@
         margin: 20px;
         padding: 25px;
     }
+
+    main .pub{
+        height: 800px;
+    }
+
+    main iframe{
+        width : 1450px;
+        height : 600px ;
+    }
 } 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .banner2{
@@ -57,10 +66,16 @@ iframe{
     width:96%;
 }
 
-.localisation , .nous{
+.localisation {
     text-align: center;
     font-family: Bahnschrift Light SemiCondensed;
     font-size: 50px;
+}
+
+iframe{
+    width : 1450px;
+    height : 500px ;
+    border: 0px;
 }
 
 .amazon , .elior{
