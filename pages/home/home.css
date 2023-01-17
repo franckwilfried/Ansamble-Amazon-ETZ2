@@ -1,4 +1,13 @@
 @media all and (max-width: 1370px){
+    ul.banner2{
+        height: 130px;
+        padding-top: 50px;
+    }
+
+    ul.banner2 > li > a:link{
+        font-size: 40px;
+    }
+    
     .presentation p{
         font-size: 40px;
     }
