@@ -38,12 +38,12 @@
         height: 60px;
     }
 
-    ul.menu{
+    ul.menu , .open ul.menu{
         height: 150vh;
     }
 
-    .open ul.menu{
-        height: 150vh;
+    ul.menu h3, .open ul.menu h3{
+        font-size: 50px;
     }
 
     main{
