@@ -4,14 +4,32 @@
     }
 
     div.formulaire{
+        font-size: 30px;
         height: 1200px;
         width: 90%;
         margin: 5%;
+    }
+
+    div.formulaire p{
+        font-size: 50px;
+        margin-bottom: 20px;
     }
     
     form{
         width: 100%;
     }
+
+    div.ligne1 , div.ligne2 , section.statut , section.objet , section.message , section.envoyer{
+        font-size: 25px;
+    }
+
+    section.message textarea{
+        height: 350px;
+    }
+
+    /* section.civilite select ,  section.prenom input, section.nom input , section.postal input , section.ville input {
+        height: 60px;
+    } */
 } 
 
 .formulaire{
