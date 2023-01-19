@@ -29,7 +29,7 @@
     }
 
     main iframe{
-        width : 1450px;
+        width : 1300px;
         height : 600px ;
     }
 } 
@@ -58,7 +58,7 @@
     height: 600px;
     background-size: cover;
     background-position: center;
-    background-image: url("images/saine.jpg")
+    background-image: url("images/sain.jpg")
 }
 
 iframe{
@@ -66,7 +66,7 @@ iframe{
     width:96%;
 }
 
-.localisation {
+.localisation , .nous{
     text-align: center;
     font-family: Bahnschrift Light SemiCondensed;
     font-size: 50px;
@@ -87,6 +87,7 @@ iframe{
     color: white;
     padding: 10px 0 0 8px;
 }
+
 .presentation p{
     display: block;
     padding: 2%;
