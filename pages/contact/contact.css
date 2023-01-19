@@ -1,3 +1,19 @@
+@media all and (max-width: 1370px){
+    main{
+        padding: 50% 0% 50% 0%;
+    }
+
+    div.formulaire{
+        height: 1200px;
+        width: 90%;
+        margin: 5%;
+    }
+    
+    form{
+        width: 100%;
+    }
+} 
+
 .formulaire{
     display: block;
     box-shadow: 1px 1px 20px 1px;
