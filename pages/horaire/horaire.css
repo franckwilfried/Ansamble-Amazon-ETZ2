@@ -1,3 +1,25 @@
+@media all and (max-width: 1370px){
+
+    nav div.logo{
+        padding-top: 30px;
+    }
+
+    div.info{
+        margin: 2%;
+        font-size: 35px;
+        width: 96%;
+    }
+
+    .titre{
+        text-align: center;
+        padding: 0px;
+    }
+    .paragraphe{
+        padding: 0px;
+        font-size: 30px;
+    }
+} 
+
 nav > .logo{
     padding-top: 15px;
 }
