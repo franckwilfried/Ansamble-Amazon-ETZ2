@@ -1,8 +1,9 @@
 @media all and (max-width: 1370px){
 
     main{
-        margin-bottom: 0px;
+        padding-bottom: 10px;
     }
+
     table{
         padding-bottom: 10px;
     }
