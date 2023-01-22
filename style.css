@@ -52,13 +52,19 @@
     }
     
     footer{
+        padding: 5px;
         height: 150px;
-        font-size: 25px;
+        font-size: 35px;
         margin: 0px;
         position: fixed;
         width: 100%;
         bottom: 0;
     }
+
+    footer ul li{
+        margin: 20px;
+    }
+    
 } 
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////:       */
