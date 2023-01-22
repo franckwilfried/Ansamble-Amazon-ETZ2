@@ -1,5 +1,14 @@
 @media all and (max-width: 1370px){
 
+    html{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    table{
+        padding-bottom: 10px;
+    }
+
     nav div.logo{
         padding-top: 40px;
     }
