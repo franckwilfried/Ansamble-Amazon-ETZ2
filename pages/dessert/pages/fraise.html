@@ -7,11 +7,28 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style>
-            /* lorsque la class mobile est ajouter par javascript */
+            @media all and (max-width: 1370px){
 
-            
+                nav div.logo{
+                    padding-top: 30px;
+                }
 
-            /*////////////////////////////////////////////////////*/
+                table{
+                    padding: 25%;
+                }
+
+                td.article{
+                    width: 750px; 
+                    height: 350px; 
+                    margin: 0px;
+                    border-radius: 25px 25px 0px 0px;
+                }
+
+                td.description{
+                    border-radius: 0px  0px 25px 25px;
+                }
+                
+            }
 
             .article{
                 font-size: 20px;
@@ -153,8 +170,8 @@
                         </td>
                     <tr>
                     </tr>
-                        <td>
-                            <div class="description" > 
+                        <td class="description">
+                            <div > 
                                 Fraise <br><br>
                                 Vanille <br><br>
                                 Poire <br><br>
@@ -185,7 +202,7 @@
             //// responsive  */
             let mediaQ = window.matchMedia("(max-width : 1370px)") 
             if(mediaQ.matches){
-                const elementTableau = '<tbody class="mobile"> <tr> <td class="article"> <img src="../images/tarte_fraise.jpg" alt=""> <div class="nom_prod"> Tarte à la fraise</div> <div class="prix"> <p> 1,20 € </p> </div> <button class="ajouter" id="tartefraise"> AJOUTER </button> </td> </tr> <tr> <td> <div class="description" > Fraise <br><br> Vanille <br><br> Poire <br><br> Lait <br><br> Creme <br><br> </div> </td> </tr> </tbody>';
+                const elementTableau = '<tbody class="mobile"> <tr> <td class="article"> <img src="../images/tarte_fraise.jpg" alt=""> <div class="nom_prod"> Tarte à la fraise</div> <div class="prix"> <p> 1,20 € </p> </div> <button class="ajouter" id="tartefraise"> AJOUTER </button> </td> </tr> <tr> <td class="description" > <div> Fraise <br><br> Vanille <br><br> Poire <br><br> Lait <br><br> Creme <br><br> </div> </td> </tr> </tbody>';
                 document.querySelector(".tableau").innerHTML = elementTableau;
             }
 
