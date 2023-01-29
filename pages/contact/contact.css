@@ -32,6 +32,12 @@
     } */
 } 
 
+main{
+    background-image: url("../../images/home.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .formulaire{
     display: block;
     box-shadow: 1px 1px 20px 1px;
