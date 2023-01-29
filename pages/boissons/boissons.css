@@ -5,7 +5,7 @@
         padding: 0px;
     }
     
-    table{
+    html body main table{
         padding-bottom: 10px;
     }
 
@@ -13,10 +13,11 @@
         padding-top: 40px;
     }
 
-    td{
-        padding: 20px;
-        font-size: 50px;
+    html td{
+        padding: 0px;
+        font-size: 100px;
     }
+    
 
 } 
 

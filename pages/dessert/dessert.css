@@ -3,16 +3,10 @@
     nav div.logo{
         padding-top: 30px;
     }
-    
-    html body main table{
-        margin: 25% 0% 25%  0%;
-        padding: 25% 0% 25%  0%;
-    }
 
     html td{
         font-size: 40px;
     }
-
 
     img.image{
         width: 95%;
