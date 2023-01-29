@@ -1,15 +1,16 @@
 @media all and (max-width: 1370px){
 
-   html body main table{
-        margin-bottom: 25%;
-   }
+    html body main table{
+        margin: 25% 0% 25%  0%;
+        padding: 25% 0% 25%  0%;
+    }
 
-   html td{
+    html td{
         font-size: 40px;
     }
 
 
-   img.image{
+    img.image{
         width: 95%;
         height: 350px;
         margin-bottom: 20px;
