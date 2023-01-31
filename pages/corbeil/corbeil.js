@@ -28,6 +28,7 @@ document.querySelector(".subtotal").innerText = somme ;
 let btnAll = document.querySelectorAll(".qty");
 
 btnAll.forEach((btn) => btn.addEventListener('click', calculAffiche) );
+btnAll.forEach((btn) => btn.addEventListener('mouseout', calculAffiche) ); /*Plus adapté pour smartphone*/
 
 
 

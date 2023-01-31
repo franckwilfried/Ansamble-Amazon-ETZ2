@@ -1,3 +1,29 @@
+@media all and (max-width: 1370px){
+    nav > div.logo{
+        padding-top: 30px;
+    }
+
+    html th{
+        font-size: 40px;
+    }
+
+    html tbody{
+        font-size: 40px;
+    }
+    
+    html main > p{
+        font-size: 30px; 
+        width: 35%; 
+        height: 60px; 
+    }
+
+    input.qty{
+        width: 100px;
+        height: 60px;
+        font-size: 40px;
+    }
+}
+
 nav > .logo{
     padding-top: 15px;
 }
@@ -19,7 +45,7 @@ th{
     font-size: 23px;
 }
 
-tbody{
+tbody {
     font-size: 23px;
 }
 
