@@ -34,16 +34,10 @@
                             <h3> O'Resto </h3> 
                         </a> 
                     </li>
-                    <li style=" top: 50%; left: 20%;" > 
-                        <a href="../dessert/dessert.html"> 
-                            <img src="../../images/dessert.png" alt=""> 
-                            <h3> Désserts</h3> 
-                        </a> 
-                    </li>
-                    <li style=" top: 50%; right: 20%;"> 
-                        <a href="../boissons/boissons.html">
-                            <img src="../../images/Boisson.png" alt=""> 
-                            <h3> Boissons</h3> 
+                    <li style=" top: 75%; right: 15%;"> 
+                        <a href="">
+                            <img src="../../images/menu.png" alt=""> 
+                            <h3 > Menu du jour</h3> 
                         </a> 
                     </li>
                     <li style="  top: 75%; left: 20%;"> 
@@ -71,23 +65,25 @@
                         <td colspan="4"> Votre panier est vide <br> :(</td>
                     </tr>
                     <!--
+                    La structre d'une ligne de produit créée dans e panier par la feuille corbeil.js
+
                     <tr> 
                         <td>
                             <div>
-                                <img src="../boissons/images/cristalline.jpg" alt=""> 
+                                <img src=" ' + prod.image + ' " alt=""> 
                             </div> 
                             <div> 
-                                <P class="name"> Cristaline </P> 
+                                <p class="name"> ' + prod.nom + ' </p> 
                             </div>
                         </td> 
                         <td>
-                            <input type="number" min="1" step="1" class="qty" value="1"> 
-                            <a href="" class="sup"> Supprimer</a> 
+                            <input type="number" min="1" step="1" class="qty" value="'+prod.quantité+'" > 
+                            <a href="" class="sup"> Retirer </a> 
                         </td> 
-                        <td class="prix"> 0.60 € </td> 
-                        <td class="soustotal"> 0.60 € </td> 
+                        <td class="prix">' + prod.prix + ' € </td> 
+                        <td class="soustotal"> ' + ( ( Math.round(prod.prix*prod.quantité*100) ) /100)+ ' € </td> 
                     </tr>
-                    La structre d'une ligne de produit créée dans e panier par la feuille corbeil.js
+                    
                     -->
                 </tbody>
             </table>

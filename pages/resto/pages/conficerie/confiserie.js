@@ -121,7 +121,7 @@ crunch.onclick = () => {
 cote_dor.onclick = () => {
     const cote_dor = {
         image:  "../resto/pages/conficerie/images/cote_dor.png" ,
-        nom: "Côte d'or ",
+        nom: "Côte d'or",
         prix: 0.80,
         quantité: 1,
     }
