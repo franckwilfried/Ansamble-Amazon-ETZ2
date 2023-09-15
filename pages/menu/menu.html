@@ -3,16 +3,16 @@
 <html lang="fr">
     <head>
         <title> Mon site </title>
+        <link rel="stylesheet" href="menu.css">
         <link rel="stylesheet" href="../../style.css">
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="corbeil.css">
     </head>
     <body>
         <header>
             <nav>
-                <div class="logo">
-                    Panier
+                <div class="logo" style="padding-top: 15px;">
+                    Menu
                 </div>
                 
                 <div class="toggle">
@@ -37,11 +37,11 @@
                     <li style=" top: 75%; right: 15%;"> 
                         <a href="">
                             <img src="../../images/menu.png" alt=""> 
-                            <h3 > Menu du jour</h3> 
+                            <h3 style="color:rgb(223, 93, 17); " > Menu du jour</h3> 
                         </a> 
                     </li>
-                    <li style="  top: 75%; left: 20%;"> 
-                        <a href="../horaire/horaire.html"> 
+                    <li style=" display: flex; flex-direction: column ; position: absolute ; top: 75%; left: 20%;"> 
+                        <a href="horaire.html"> 
                             <img src="../../images/agenda.png" alt="" > 
                             <h3> Horaire </h3> 
                         </a> 
@@ -49,49 +49,20 @@
                 </ul>
 
                 <div class="panier" >
-                    <a href="corbeil.html"><i class="fa-solid fa-basket-shopping" ></a></i></a>
+                    <a href="../corbeil/corbeil.html"><i class="fa-solid fa-basket-shopping" ></a></i></a>
                     <input class="nombre" type="text" value="" readonly>
                 </div>
 
             </nav>
         </header>
         <main>
-            <table class="table">
-                <thead>
-                    <tr><th>Article</th><th>Quantité</th><th>Prix unitaire</th><th>Coût</th></tr>
-                </thead>
-                <tbody id="cart-tablebody">
-                    <tr class="vide"> 
-                        <td colspan="4"> Votre panier est vide <br> :(</td>
-                    </tr>
-                    <!--
-                    La structre d'une ligne de produit créée dans e panier par la feuille corbeil.js
-
-                    <tr> 
-                        <td>
-                            <div>
-                                <img src=" ' + prod.image + ' " alt=""> 
-                            </div> 
-                            <div> 
-                                <p class="name"> ' + prod.nom + ' </p> 
-                            </div>
-                        </td> 
-                        <td>
-                            <input type="number" min="1" step="1" class="qty" value="'+prod.quantité+'" > 
-                            <a href="" class="sup"> Retirer </a> 
-                        </td> 
-                        <td class="prix">' + prod.prix + ' € </td> 
-                        <td class="soustotal"> ' + ( ( Math.round(prod.prix*prod.quantité*100) ) /100)+ ' € </td> 
-                    </tr>
-                    
-                    -->
-                </tbody>
-            </table>
-            
-            <p>Somme total : <span class="subtotal"> 0 </span> €</p>
-
-            <h3>Je resserve mon panier <a href="pay/client/checkout.html"> <button> Réservation </button></a></h3>
-            
+            <section class="semaine"> 
+                <div>
+                    <img src="images/menu.jpg" style="width: 100%; height: 100%;">
+                </div>
+            </section>
+            <section classe="jour">
+            </section>
         </main>
         <footer>
             <ul>
@@ -109,6 +80,5 @@
             </ul>
         </footer>
         <script src="../../script.js"></script>
-        <script src="corbeil.js"></script>
     </body>
 </html>
